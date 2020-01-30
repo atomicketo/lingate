@@ -49,7 +49,7 @@ const CardContainer = props => {
   return (
     <Fragment>
       {/* <Container maxWidth="xl" style={{ backgroundColor: "grey" }}> */}
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" style={{ marginTop: 80 }}>
         <Grid container justify="center">
           <Card item={data[0]} className></Card>
           <Card item={data[1]} className></Card>
