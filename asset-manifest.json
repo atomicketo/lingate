@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/lingate/static/css/main.d1b05096.chunk.css",
+    "main.js": "/lingate/static/js/main.24919813.chunk.js",
+    "main.js.map": "/lingate/static/js/main.24919813.chunk.js.map",
+    "runtime-main.js": "/lingate/static/js/runtime-main.d84a5610.js",
+    "runtime-main.js.map": "/lingate/static/js/runtime-main.d84a5610.js.map",
+    "static/js/2.8b338a75.chunk.js": "/lingate/static/js/2.8b338a75.chunk.js",
+    "static/js/2.8b338a75.chunk.js.map": "/lingate/static/js/2.8b338a75.chunk.js.map",
+    "index.html": "/lingate/index.html",
+    "precache-manifest.f2ff4e154be27a41f56db1fb4b400628.js": "/lingate/precache-manifest.f2ff4e154be27a41f56db1fb4b400628.js",
+    "service-worker.js": "/lingate/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/lingate/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.8b338a75.chunk.js.LICENSE": "/lingate/static/js/2.8b338a75.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d84a5610.js",
+    "static/js/2.8b338a75.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.24919813.chunk.js"
+  ]
+}
