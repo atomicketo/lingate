@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/lingate/static/css/main.d1b05096.chunk.css",
-    "main.js": "/lingate/static/js/main.24919813.chunk.js",
-    "main.js.map": "/lingate/static/js/main.24919813.chunk.js.map",
+    "main.css": "/lingate/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/lingate/static/js/main.94cbc575.chunk.js",
+    "main.js.map": "/lingate/static/js/main.94cbc575.chunk.js.map",
     "runtime-main.js": "/lingate/static/js/runtime-main.d84a5610.js",
     "runtime-main.js.map": "/lingate/static/js/runtime-main.d84a5610.js.map",
-    "static/js/2.8b338a75.chunk.js": "/lingate/static/js/2.8b338a75.chunk.js",
-    "static/js/2.8b338a75.chunk.js.map": "/lingate/static/js/2.8b338a75.chunk.js.map",
+    "static/js/2.c78069c4.chunk.js": "/lingate/static/js/2.c78069c4.chunk.js",
+    "static/js/2.c78069c4.chunk.js.map": "/lingate/static/js/2.c78069c4.chunk.js.map",
     "index.html": "/lingate/index.html",
-    "precache-manifest.3133e77756d924c12f31fcaa2ea8ac48.js": "/lingate/precache-manifest.3133e77756d924c12f31fcaa2ea8ac48.js",
+    "precache-manifest.c3bcd605180f6fb9c17d4a804a9e642b.js": "/lingate/precache-manifest.c3bcd605180f6fb9c17d4a804a9e642b.js",
     "service-worker.js": "/lingate/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/lingate/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.8b338a75.chunk.js.LICENSE": "/lingate/static/js/2.8b338a75.chunk.js.LICENSE"
+    "static/css/main.5ecd60fb.chunk.css.map": "/lingate/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.c78069c4.chunk.js.LICENSE": "/lingate/static/js/2.c78069c4.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.d84a5610.js",
-    "static/js/2.8b338a75.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.24919813.chunk.js"
+    "static/js/2.c78069c4.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.94cbc575.chunk.js"
   ]
 }
