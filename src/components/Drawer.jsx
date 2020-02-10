@@ -158,19 +158,19 @@ export default function PersistentDrawerLeft() {
             {theme.direction === "ltr" ? (
               <ChevronLeftIcon />
             ) : (
-              <ChevronRightIcon />
-            )}
+                <ChevronRightIcon />
+              )}
           </IconButton>
         </div>
         <Divider />
         <List>
           {[
-            "Limits",
-            "Continuity",
+            // "Limits",
+            // "Continuity",
             "Derivatives",
-            "Chain Rule",
-            "Theorem of Calculus",
-            "Indefinite Integrals"
+            // "Chain Rule",
+            // "Theorem of Calculus",
+            "Antiderivative"
           ].map((text, index) => (
             <ListItem button key={text} alignItems="flex-start">
               <ListItemIcon>

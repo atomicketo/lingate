@@ -22,7 +22,8 @@ const useStyles = makeStyles({
 export default function MediaCard(props) {
   const classes = useStyles();
   const { image, title, desc } = props.item;
-  console.log("image: ", image);
+  // console.log("image: ", image);
+  const { handleOnClick } = props;
   return (
     <Card className={classes.card}>
       <CardActionArea>
@@ -37,7 +38,7 @@ export default function MediaCard(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button size="small" color="primary" onClick={() => handleOnClick()}>
           Study Now
         </Button>
       </CardActions>
