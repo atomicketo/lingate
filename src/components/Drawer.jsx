@@ -165,12 +165,7 @@ export default function PersistentDrawerLeft() {
         <Divider />
         <List>
           {[
-            // "Limits",
-            // "Continuity",
             "Derivatives",
-            // "Chain Rule",
-            // "Theorem of Calculus",
-            "Antiderivative"
           ].map((text, index) => (
             <ListItem button key={text} alignItems="flex-start">
               <ListItemIcon>

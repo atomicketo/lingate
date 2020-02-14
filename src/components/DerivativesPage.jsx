@@ -23,7 +23,6 @@ export default function DerivativesPage(props) {
                    </p>
                     <p>The derivative of f(x) with respect to x is the function f′(x) and is defined as,</p>
                     <br></br>
-
                     <p style={{ marginLeft: 30, fontStyle: 'italic' }}>f
 ′
 (

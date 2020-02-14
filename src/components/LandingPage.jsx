@@ -1,17 +1,54 @@
-import React, { useState } from "react";
-
-import Drawer from "./Drawer";
+import React, { Component } from 'react'
 import DerivativesPage from './DerivativesPage';
 import CardContainer from "./CardContainer";
-const LandingPage = () => {
+import AntiDerivativesPage from "./AntiDerivativesPage"
+import Drawer from './Drawer';
+export default class LandingPage extends Component {
+  state = {
+    showDerivatives: false,
+    showAntiDerivatives: false,
+  }
 
-  const [showContent, setShowContent] = useState(false);
-  return (
-    <React.Fragment>
-      <Drawer />
-      {showContent ? <DerivativesPage back={() => setShowContent(false)} /> : <CardContainer showDerivatives={() => setShowContent(true)} />}
-    </React.Fragment>
-  );
-};
+  handleBack = () => {
+    this.setState({ showDerivatives: false })
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
 
-export default LandingPage;
+  renderComponent = () => {
+    const { showDerivatives } = this.state
+    if (showDerivatives) {
+      return <DerivativesPage back={this.handleBack} />
+    } else {
+      return <CardContainer showDerivatives={() => this.setState({ showDerivatives: true })}
+      />
+    }
+  }
+
+
+  render() {
+    return (
+      <React.Fragment>
+        <Drawer />
+        {this.renderComponent()}
+      </React.Fragment>
+    )
+  }
+}
+
+
+// renderComponent = () => {
+//   const { showDerivatives, showAntiDerivatives } = this.state
+//   if (showDerivatives) {
+//     return <DerivativesPage back={() => this.setState({ showDerivatives: false })} />
+//   } else if (showAntiDerivatives) {
+//     return <AntiDerivativesPage back={() => this.setState({ showAntiDerivatives: false })} />
+//   } else {
+//     return <CardContainer
+//       showDerivatives={() => this.setState({ showDerivatives: true })}
+//       showAntiDerivatives={() => this.setState({ showAntiDerivatives: true })}
+//     />
+//   }
+// }
