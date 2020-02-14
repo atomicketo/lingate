@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lingate/precache-manifest.b1b2c45664f0a98531206bb09b5566b7.js"
+  "/lingate/precache-manifest.5f10c7a87da270ab5056b27eb14658d1.js"
 );
 
 self.addEventListener('message', (event) => {
