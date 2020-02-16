@@ -19,7 +19,7 @@ const useStyles = makeStyles({
   }
 });
 
-export default function MediaCard(props) {
+export default function AppCard(props) {
   const classes = useStyles();
   const { image, title, desc } = props.item;
   const { handleOnClick } = props;
@@ -37,8 +37,13 @@ export default function MediaCard(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary" onClick={() => handleOnClick()} disabled={props.disable ? true : false}>
-          {props.studyNow ? 'Study Now' : 'Coming Soon'}
+        <Button
+          size="small"
+          color="primary"
+          onClick={() => handleOnClick()}
+          disabled={props.disable ? true : false}
+        >
+          {props.studyNow ? "Study Now" : "Coming Soon"}
         </Button>
       </CardActions>
     </Card>
