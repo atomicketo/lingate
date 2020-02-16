@@ -44,7 +44,7 @@ const CardContainer = props => {
         "The fundamental theorem of calculus is a theorem that links the concept of differentiating a function with the concept of integrating a function. Dive deeper on what are the things you want to know more about calculus",
       image:
         "https://images.unsplash.com/photo-1576834967753-ad2cf1cc8d19?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9"
-    },
+    }
   ];
 
   const { showDerivatives } = props;
@@ -56,16 +56,16 @@ const CardContainer = props => {
             item={data[0]}
             className
             handleOnClick={() => showDerivatives()}
-            studyNow>
-          </Card>
-          <Card item={data[1]} className disable></Card>
-          <Card item={data[2]} className disable></Card>
+            studyNow
+          ></Card>
+          {/* <Card item={data[1]} className disable></Card>
+          <Card item={data[2]} className disable></Card> */}
         </Grid>
-        <Grid container justify="center">
+        {/* <Grid container justify="center">
           <Card item={data[3]} className disable></Card>
           <Card item={data[4]} className disable></Card>
           <Card item={data[5]} className disable></Card>
-        </Grid>
+        </Grid> */}
       </Container>
       {props.children}
     </Fragment>

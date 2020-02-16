@@ -8,7 +8,7 @@ import Paper from "@material-ui/core/Paper";
 import Mathjax from "./Mathjax";
 import Limits from "./componentPage/Limits";
 import Slope from "./componentPage/Slope";
-
+import VideoContainer from "./componentPage/VideoContainer";
 const useStyles = makeStyles({
   paddingTop: {
     paddingTop: 50
@@ -24,6 +24,7 @@ export default function DerivativesPage(props) {
         <Card style={{ padding: 20 }}>
           <Slope />
           <Limits />
+          <VideoContainer />
           <Button
             variant="contained"
             style={{ marginTop: 20, paddingRight: 20, paddingLeft: 20 }}

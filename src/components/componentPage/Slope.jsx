@@ -1,10 +1,6 @@
 import React from "react";
 import Paper from "@material-ui/core/Paper";
 import Mathjax from "../Mathjax";
-import { CardMedia } from "@material-ui/core";
-import { SvgIcon } from "@material-ui/core";
-import SlopeSvg from "../../assests/svg/slope.svg";
-import Box from "@material-ui/core/Box";
 export default function Slope(props) {
   return (
     <React.Fragment>
@@ -260,8 +256,8 @@ export default function Slope(props) {
             alt="Slope"
           />
           <p style={{ textAlign: "center", margin: 0 }}>
-            It means that, for the function x2, the slope or "rate of change" at
-            any point is 2x.
+            It means that, for the function x<sup>2</sup>, the slope or "rate of
+            change" at any point is 2x.
           </p>
           <p style={{ textAlign: "center", margin: 0 }}>
             So when x=2 the slope is 2x = 4, as shown here:
