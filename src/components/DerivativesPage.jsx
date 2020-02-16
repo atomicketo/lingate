@@ -4,7 +4,6 @@ import Container from "@material-ui/core/Container";
 import Drawer from "../components/Drawer";
 import { Card } from "@material-ui/core";
 import Button from "@material-ui/core/Button";
-import Paper from "@material-ui/core/Paper";
 import Mathjax from "./Mathjax";
 import Limits from "./componentPage/Limits";
 import Slope from "./componentPage/Slope";
