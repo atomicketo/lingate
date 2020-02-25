@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/lingate/static/css/main.69eda509.chunk.css",
-    "main.js": "/lingate/static/js/main.94524025.chunk.js",
-    "main.js.map": "/lingate/static/js/main.94524025.chunk.js.map",
+    "main.js": "/lingate/static/js/main.6d5066a9.chunk.js",
+    "main.js.map": "/lingate/static/js/main.6d5066a9.chunk.js.map",
     "runtime-main.js": "/lingate/static/js/runtime-main.d84a5610.js",
     "runtime-main.js.map": "/lingate/static/js/runtime-main.d84a5610.js.map",
     "static/js/2.d217fe7a.chunk.js": "/lingate/static/js/2.d217fe7a.chunk.js",
     "static/js/2.d217fe7a.chunk.js.map": "/lingate/static/js/2.d217fe7a.chunk.js.map",
     "index.html": "/lingate/index.html",
-    "precache-manifest.2d73ce1c1a735d87cdcfddc4918bf997.js": "/lingate/precache-manifest.2d73ce1c1a735d87cdcfddc4918bf997.js",
+    "precache-manifest.be9754f1a02c0588679e50eaf4062c23.js": "/lingate/precache-manifest.be9754f1a02c0588679e50eaf4062c23.js",
     "service-worker.js": "/lingate/service-worker.js",
     "static/css/main.69eda509.chunk.css.map": "/lingate/static/css/main.69eda509.chunk.css.map",
     "static/js/2.d217fe7a.chunk.js.LICENSE": "/lingate/static/js/2.d217fe7a.chunk.js.LICENSE",
-    "static/media/video-1.mp4": "/lingate/static/media/video-1.cdbd20c9.mp4",
-    "static/media/video-2.mp4": "/lingate/static/media/video-2.a7ee4ae5.mp4",
-    "static/media/video-3.mp4": "/lingate/static/media/video-3.41da3cbe.mp4"
+    "static/media/video-1_rotated.mp4": "/lingate/static/media/video-1_rotated.a6fbbf49.mp4",
+    "static/media/video-2_rotated.mp4": "/lingate/static/media/video-2_rotated.14804880.mp4",
+    "static/media/video-3_rotated.mp4": "/lingate/static/media/video-3_rotated.11803866.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.d84a5610.js",
     "static/js/2.d217fe7a.chunk.js",
     "static/css/main.69eda509.chunk.css",
-    "static/js/main.94524025.chunk.js"
+    "static/js/main.6d5066a9.chunk.js"
   ]
 }
