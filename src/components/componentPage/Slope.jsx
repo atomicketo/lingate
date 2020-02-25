@@ -175,9 +175,10 @@ export default function Slope(props) {
           <p>
             Start with: <strong>f(x+Δx) = (x+Δx)</strong>
           </p>
+          <Mathjax styles={{ fontSize: 14 }} latex={`(x + Δx)^2: f(x+Δx)`} />
           <Mathjax
-            styles={{ fontSize: 11 }}
-            latex={`(x + Δx)^2: f(x+Δx) = x^2 + 2x Δx + (Δx)^2 )`}
+            styles={{ fontSize: 14, marginLeft: 60 }}
+            latex={`= x^2 + 2x Δx + (Δx)^2 )`}
           />
         </div>
 
