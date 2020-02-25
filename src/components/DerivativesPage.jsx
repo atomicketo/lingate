@@ -39,7 +39,7 @@ export default function DerivativesPage(props) {
       </Container>
       <style jsx>{`
         body {
-          font-family: "Love Ya Like A Sister";
+          font-family: "McLaren";
         }
         p {
           font-size: 1rem;
