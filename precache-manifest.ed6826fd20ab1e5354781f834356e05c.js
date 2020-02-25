@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8a3963f3930e1451014b927634d9dffd",
+    "revision": "b2a368e05fd791e7caf84618f05be79c",
     "url": "/lingate/index.html"
   },
   {
