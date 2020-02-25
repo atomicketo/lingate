@@ -26,16 +26,28 @@ export default function Slope(props) {
           VIDEO-TUTORIAL
         </h2>
         <h3>Part 1</h3>
-        <video className="center" style={{ alignSelf: "center" }} controls>
-          <source src={require("./video-1.mp4")} type="video/mp4" />
+        <video
+          className="center"
+          style={{ alignSelf: "center", width: "100%", height: "30%" }}
+          controls
+        >
+          <source src={require("./video-1_rotated.mp4")} type="video/mp4" />
         </video>{" "}
         <h3>Part 2</h3>
-        <video className="center" style={{ alignSelf: "center" }} controls>
-          <source src={require("./video-2.mp4")} type="video/mp4" />
+        <video
+          className="center"
+          style={{ alignSelf: "center", width: "100%" }}
+          controls
+        >
+          <source src={require("./video-2_rotated.mp4")} type="video/mp4" />
         </video>{" "}
         <h3>Part 3</h3>
-        <video className="center" style={{ alignSelf: "center" }} controls>
-          <source src={require("./video-3.mp4")} type="video/mp4" />
+        <video
+          className="center"
+          style={{ alignSelf: "center", width: "100%" }}
+          controls
+        >
+          <source src={require("./video-3_rotated.mp4")} type="video/mp4" />
         </video>
       </Paper>
       <style scoped jsx>{`

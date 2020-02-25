@@ -19,8 +19,11 @@ export default function DerivativesPage(props) {
   return (
     <React.Fragment>
       <Drawer />
-      <Container fixed style={{ marginTop: 80 }}>
-        <Card style={{ padding: 20 }}>
+      <Container
+        fixed
+        style={{ marginTop: 80, display: "flex", justifyContent: "center" }}
+      >
+        <Card style={{ padding: 20, maxWidth: "720px" }}>
           <Slope />
           <Limits />
           <VideoContainer />

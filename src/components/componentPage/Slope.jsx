@@ -115,11 +115,13 @@ export default function Slope(props) {
           alt="Slope"
         />
 
-        <p>And (from the diagram) we see that:</p>
-        <p>
+        <p style={{ textAlign: "center" }}>
+          And (from the diagram) we see that:
+        </p>
+        <p style={{ textAlign: "center" }}>
           x changes from <strong>x to x+Δx</strong>
         </p>
-        <p>
+        <p style={{ textAlign: "center" }}>
           y changes from <strong>f(x) to f(x+Δx)</strong>
         </p>
 
@@ -153,9 +155,14 @@ export default function Slope(props) {
           style={{
             backgroundColor: "#e1f7d5",
             padding: 10,
+            borderLeftStyle: "solid",
+            borderLeftWidth: 5,
+            borderLeftColor: "darkgreen",
             borderRadius: 5,
             marginTop: 24,
             marginBottom: 24
+            // borderLeftWidth: 10,
+            // borderLeftColor: "red"
           }}
         >
           <p>
@@ -180,7 +187,10 @@ export default function Slope(props) {
             padding: 10,
             borderRadius: 5,
             marginTop: 24,
-            marginBottom: 24
+            marginBottom: 24,
+            borderLeftStyle: "solid",
+            borderLeftWidth: 5,
+            borderLeftColor: "#00137D"
           }}
         >
           <p>The slope formula is:</p>
@@ -273,7 +283,10 @@ export default function Slope(props) {
               padding: 10,
               marginBottom: 24,
               marginTop: 24,
-              borderRadius: 7
+              borderRadius: 7,
+              borderLeftStyle: "solid",
+              borderLeftWidth: 5,
+              borderLeftColor: "#00137D"
             }}
           >
             <p>Note: sometimes f’(x) is also used for "the derivative of":</p>
@@ -292,14 +305,14 @@ export default function Slope(props) {
           display: block;
           margin: auto;
         }
-        @media (min-width: 769px) {
-          p {
-            margin-left: 200px;
-          }
-          li {
-            margin-left: 200px;
-          }
-        }
+        // @media (min-width: 769px) {
+        //   p {
+        //     margin-left: 200px;
+        //   }
+        //   li {
+        //     margin-left: 200px;
+        //   }
+        // }
       `}</style>
     </React.Fragment>
   );
