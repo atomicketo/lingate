@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9390dc57c3ab62707f4d96943d7cabad",
+    "revision": "8a3963f3930e1451014b927634d9dffd",
     "url": "/lingate/index.html"
   },
   {
-    "revision": "e677853efd82960c7b12",
+    "revision": "9eba63849d5db366bb71",
     "url": "/lingate/static/css/main.69eda509.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lingate/static/js/2.d217fe7a.chunk.js.LICENSE"
   },
   {
-    "revision": "e677853efd82960c7b12",
-    "url": "/lingate/static/js/main.6d5066a9.chunk.js"
+    "revision": "9eba63849d5db366bb71",
+    "url": "/lingate/static/js/main.9011b96b.chunk.js"
   },
   {
     "revision": "90e7b5e56fc46e4ff4eb",
