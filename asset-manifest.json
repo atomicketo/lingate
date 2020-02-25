@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/lingate/static/css/main.69eda509.chunk.css",
-    "main.js": "/lingate/static/js/main.6b2fdfd1.chunk.js",
-    "main.js.map": "/lingate/static/js/main.6b2fdfd1.chunk.js.map",
+    "main.js": "/lingate/static/js/main.e68fee9b.chunk.js",
+    "main.js.map": "/lingate/static/js/main.e68fee9b.chunk.js.map",
     "runtime-main.js": "/lingate/static/js/runtime-main.d84a5610.js",
     "runtime-main.js.map": "/lingate/static/js/runtime-main.d84a5610.js.map",
     "static/js/2.d217fe7a.chunk.js": "/lingate/static/js/2.d217fe7a.chunk.js",
     "static/js/2.d217fe7a.chunk.js.map": "/lingate/static/js/2.d217fe7a.chunk.js.map",
     "index.html": "/lingate/index.html",
-    "precache-manifest.74a9337ef1c6e82eac32a829d9136239.js": "/lingate/precache-manifest.74a9337ef1c6e82eac32a829d9136239.js",
+    "precache-manifest.58881cf772495d66f3929e46eae78725.js": "/lingate/precache-manifest.58881cf772495d66f3929e46eae78725.js",
     "service-worker.js": "/lingate/service-worker.js",
     "static/css/main.69eda509.chunk.css.map": "/lingate/static/css/main.69eda509.chunk.css.map",
     "static/js/2.d217fe7a.chunk.js.LICENSE": "/lingate/static/js/2.d217fe7a.chunk.js.LICENSE",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.d84a5610.js",
     "static/js/2.d217fe7a.chunk.js",
     "static/css/main.69eda509.chunk.css",
-    "static/js/main.6b2fdfd1.chunk.js"
+    "static/js/main.e68fee9b.chunk.js"
   ]
 }
