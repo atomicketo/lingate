@@ -266,7 +266,7 @@ export default function Slope(props) {
             src="https://www.mathsisfun.com/calculus/images/slope-x2-2.svg"
             alt="Slope"
           />
-          <p style={{ textAlign: "center", margin: 0 }}>
+          <p style={{ textAlign: "center", margin: 0, marginTop: 20 }}>
             It means that, for the function x<sup>2</sup>, the slope or "rate of
             change" at any point is 2x.
           </p>
