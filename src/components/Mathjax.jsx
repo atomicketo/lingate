@@ -6,6 +6,9 @@ const tex = `f(x) = \\int_{-\\infty}^\\infty
 
 // https://en.wikibooks.org/wiki/LaTeX/Mathematics
 
+
+//added to test git config
+
 const quadratic = `\\cos (2\\theta) = \\cos^2 \\theta - \\sin^2 \\theta`;
 
 export default ({ latex, styles }) => {
